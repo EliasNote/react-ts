@@ -31,3 +31,24 @@ input[type="text"] {
     border-radius: 4px;
     margin-right: 5px;
 }
+
+button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #449d44;
+}
+
+button[type="submit"] {
+    background-color: #337ab7;
+}
+
+button[type="submit"]:hover {
+    background-color: #286090;
+}

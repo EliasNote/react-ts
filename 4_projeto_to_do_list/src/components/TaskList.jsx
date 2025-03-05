@@ -1,9 +1,12 @@
 import Task from "./Task";
 
-const TaskList = () => {
+const TaskList = ({ tasks }) => {
   return (
     <ul>
       <Task/>
+      {tasks.map((task) => {
+        <Task key={task.id} task={task}/>
+      })}
     </ul>
   );
 };
